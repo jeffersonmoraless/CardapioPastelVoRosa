@@ -1,0 +1,306 @@
+
+ /*@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');/*'Covered By Your Grace', cursive;*/
+ /*@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');/*'Chewy', cursiva; */
+ /*@import url('https://fonts.googleapis.com/css2?family= Norican & display=swap'); /*'Norican', cursiva;*/
+ /*@import url('https://fonts.googleapis.com/css2?family= Dawning +of+a+New+Day & display=swap'); /*'Dawning of a New Day', cursiva; */
+/* @import url('https://fonts.googleapis.com/css2?family= Frijole & display=swap');/*'Frijole', cursiva*/
+ @import url('https://fonts.googleapis.com/css2?family=Frijole&family=Rubik+Distressed&display=swap');
+
+
+/*<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https: //fonts.googleapis.com/css2?family= Covered+By+Your+Grace & display=swap" rel = "stylesheet">*/
+@media screen and (min-width: 768px) {
+    /* Coloque seus estilos para telas grandes aqui */
+    *{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    
+    body{
+        background-image: url("pastel.webp");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    header{
+        display:flex ;
+        min-height: 20vh;
+        text-align: center;
+        background-image: linear-gradient( to bottom,#ffe20d, #f0120eb0 );
+        align-items: center;
+        justify-content: center;
+    }
+    header> img{
+        width:280px !important;
+        
+    }
+    header> h1{
+        
+        font-family: 'Frijole', cursive;
+        font-family: 'Rubik Distressed', cursive;
+        font-size: 5em;
+        font-weight: 100;
+        
+    
+    }
+    .container{
+        
+        width: 80vw;
+        min-height: 50vh;
+        margin: auto;
+    }
+    .container> h1{
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .subContainer{
+        margin-top: 25px;    
+        display: flex;
+        border-radius: 8px;
+    }
+    .boxOne{
+        
+        font-weight: 100;
+        width:35vw;
+        background-color: #ffe30e70;
+        font-family: 'Frijole', cursive;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        
+        
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+        
+        
+    }
+    .produto{
+        
+        padding-left: 25px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .valor{
+        
+        text-align: right;
+        padding-right: 25px;
+        padding-left: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        
+        
+    
+    }
+    tr:hover{
+        background-color:#7e2e316d;
+        color: white;
+    }
+   
+    .boxTwo{
+        min-height: 300px;
+        width:35vw;
+        background-color: #ffe30e70;
+        font-family: 'Frijole', cursive;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        
+    }
+    h3{
+        color: white;
+        font-family: 'Norican', cursive;
+        background-color: #ed110e;
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+        padding-top:15px;
+        padding-bottom: 15px;
+    }
+    footer {
+        background-image: linear-gradient( to bottom,#fcc52cc6 50% , #7e2e31be );
+        padding: 20px;
+        color: #333;
+        margin-top: 40px;
+      }
+     h4{
+        text-align: center;
+        font-family: 'Norican', cursive;
+        font-weight: 900;
+        font-size: 1.17EM;
+        
+      }
+      .forma-pagamento> img{
+        width: 200px;
+      }
+      .redes-sociais> a> img{
+        width: 40px;
+      }
+      .containerF {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      
+      .containerF div {
+        flex: 1 0 25%;
+        margin-bottom: 20px;
+      }
+      
+      .containerF h4 {
+        margin-bottom: 10px;
+      }
+      
+      .redes-sociais a {
+        margin-right: 10px;
+        color: #333;
+      }
+      
+      .redes-sociais a:hover {
+        color: #000;
+      }
+      
+   /*footer{
+        margin-top: 80px;
+        background-image: linear-gradient( to bottom,#fcc52cbe , #7e2e31fe );
+        width: 100%;
+        height: 10vh;
+    }*/
+    small{
+        font-size: 0.7em;
+    }
+}
+  /* Estilos para telas pequenas */
+  @media screen and (max-width: 767px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    small{
+        font-size: 0.8em;
+    }
+    body{
+        background-image: url("redusida.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    h4{
+        text-align: center;
+        font-family: 'Norican', cursive;
+        font-weight: 900;
+        font-size: 1.17EM;
+        
+      }
+    header{
+        min-height: 5vh;
+        background-image: linear-gradient( to bottom,#fcc52c90, #7e2e31 );
+        text-align: center;
+    }
+    
+    header> img{
+        width: 200px;
+    }
+    header> h1{
+        display: none;
+    }
+    .container{
+        
+        width: 90vw;
+        margin: auto;
+    }
+    .container> h1{
+        font-family: 'Rubik Distressed', cursive;
+        font-size: 1.5em;
+        font-weight: 100;
+        text-align: center;
+        padding-bottom: 10px;
+        padding-top: 25px;
+    }
+    .subContainer{
+        margin-top: 25px;    
+        border-radius: 8px;
+    }
+    .boxOne, .boxTwo{
+        background-color: #fcc52c76;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+        font-family: 'Frijole', cursive;
+        font-size: 0.9em;
+        margin-bottom: 40px;
+    }
+    table{
+        width: 100%;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    .produto{
+        
+        padding-left: 5px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+    }
+    .valor{
+        
+        text-align: right;
+        padding-right: 5px;
+        padding-left: 0px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 25%;
+        
+    }
+    tr:hover{
+        background-color:#7e2e316d;
+        color: white;
+    }
+    h3{
+        color: white;
+        background-color: #7e2e31;
+        border-radius: 10px 10px 0 0;
+        text-align: center;
+        padding-top:8px;
+        padding-bottom: 8px;
+        font-size: 1.3em;
+    }
+    footer {
+        background-image: linear-gradient( to bottom,#fcc52cc6 50% , #7e2e31be );
+        padding: 20px;
+        color: #333;
+        margin-top: 40px;
+    }
+    .forma-pagamento> img{
+        width: 150px;
+      }
+    .redes-sociais> a> img{
+        width: 40px;
+    }
+    .containerF {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+      .containerF div {
+        flex: 1 0 25%;
+        margin-bottom: 20px;
+      }
+      
+      .containerF h4 {
+        margin-bottom: 10px;
+      }
+      
+      .redes-sociais a {
+        margin-right: 10px;
+        color: #333;
+      }
+      
+      .redes-sociais a:hover {
+        color: #000;
+      }
+}
+  
