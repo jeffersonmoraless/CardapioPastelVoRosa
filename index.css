@@ -198,7 +198,7 @@
       }
     header{
         min-height: 5vh;
-        background-image: linear-gradient( to bottom,#fcc52c90, #7e2e31 );
+        background-image: linear-gradient( to bottom,#ffe20d, #f0120eb0 );
         text-align: center;
     }
     
@@ -226,7 +226,7 @@
         border-radius: 8px;
     }
     .boxOne, .boxTwo{
-        background-color: #fcc52c76;
+        background-color: #ffe30e70;
         margin-left: auto;
         margin-right: auto;
         border-radius: 10px;
@@ -261,7 +261,7 @@
     }
     h3{
         color: white;
-        background-color: #7e2e31;
+        background-color: #ed110e;
         border-radius: 10px 10px 0 0;
         text-align: center;
         padding-top:8px;
